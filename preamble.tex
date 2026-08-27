@@ -1,0 +1,32 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[normalem]{ulem}
+
+% Linked text: dotted underline + northeast arrow
+\newcommand{\weblink}[2]{%
+  \dotuline{\href{#1}{#2}}
+}
+\usepackage[a4paper, left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{changepage}
+
+% Colors
+\definecolor{darkgray}{rgb}{0.3, 0.3, 0.3}
+\definecolor{azure}{HTML}{6495ED}
+\definecolor{sectionrule}{rgb}{0.39,0.39,0.39}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkgray,
+    filecolor=darkgray,
+    urlcolor=darkgray,
+}
+
+% Section formatting — heading stays black, rule is light gray
+\titleformat{\section}{\Large\bfseries}{}{0em}{\uppercase}[{\color{sectionrule}\titlerule[1pt]}]
+\titlespacing{\section}{0pt}{12pt}{8pt}

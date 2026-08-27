@@ -1,0 +1,53 @@
+\section{Projects}
+
+\definecolor{azure}{HTML}{6495ED}
+\hypersetup{
+    linkcolor=azure,
+    filecolor=azure,
+    urlcolor=azure,
+}
+\noindent
+{\large \textbf{Waltz}} \hfill {\small \textit{Jul 2026 -- Present}}
+\begin{adjustwidth}{0.15in}{0in}
+    \textit{FastAPI-native Authentication \& Identity Management Framework} \\
+    \textbf{Stack:} Python $\cdot$ FastAPI $\cdot$ Pydantic $\cdot$ JWT $\cdot$ OAuth 2.0 $\cdot$ OIDC $\cdot$ AsyncIO \\[2pt]
+    \weblink{https://github.com/DODO-unique/Waltz}{GitHub}
+    \begin{itemize}[leftmargin=0.15in, label={--}]
+        \setlength\itemsep{0em}
+        \item Built a \textbf{stateful, storage-agnostic authentication framework} supporting local and federated authentication, session tokens, and email OTP verification.
+        \item Designed a \textbf{contract-driven RPC bus} enabling the framework to request application-owned operations such as user lookup, persistence, session storage, and email delivery.
+        \item Implemented \textbf{provider-agnostic OAuth 2.0 and OIDC flows} with JWT token-response handling, Pydantic validation, structured logging, and centralized exception handling.
+    \end{itemize}
+\end{adjustwidth}
+
+\vspace{10pt}
+
+\noindent
+{\large \textbf{Naissance}} \hfill {\small \textit{Aug 2026}}
+\begin{adjustwidth}{0.15in}{0in}
+    \textit{Git Repository Genesis Utility} \\
+    \textbf{Stack:} Python $\cdot$ Git $\cdot$ GitHub $\cdot$ PyPI \\[2pt]
+    \weblink{https://github.com/DODO-unique/Naissance}{GitHub} $|$ \weblink{https://pypi.org/project/naissance/}{PyPI}
+    \begin{itemize}[leftmargin=0.15in, label={--}]
+        \setlength\itemsep{0em}
+        \item Built a \textbf{zero-prompt CLI} that creates and configures local Git repositories alongside corresponding GitHub repositories in a single command, reducing setup time by \textbf{\textasciitilde75\%} and eliminating \textbf{5--8 manual steps}.
+        \item Designed \textbf{100\% non-interactive, state-aware repository initialization} supporting nonexistent, empty, populated, and already-initialized Git directories with configuration-driven defaults.
+        \item Published the open-source utility to PyPI, reaching \textbf{\textasciitilde950 total downloads and 247 non-mirrored downloads} since launch; repository is open to contributions.
+    \end{itemize}
+\end{adjustwidth}
+
+\vspace{10pt}
+
+\noindent
+{\large \textbf{BriarCastle}} \hfill {\small \textit{Jun 2026 -- Present}}
+\begin{adjustwidth}{0.15in}{0in}
+    \textit{Personal Web \& Deployment Ecosystem} \\
+    \textbf{Stack:} React $\cdot$ JavaScript $\cdot$ Zod $\cdot$ YAML $\cdot$ Cloudflare Workers $\cdot$ GitHub Pages \\[2pt]
+    \weblink{https://github.com/DODO-unique/BriarCastle-homepage}{GitHub} $|$ \weblink{https://briarcastle.com}{briarcastle.com}
+    \begin{itemize}[leftmargin=0.15in, label={--}]
+        \setlength\itemsep{0em}
+        \item Built and maintained a \textbf{React-based multi-subdomain web ecosystem} for personal projects, including dedicated project, profile, and API deployments.
+        \item Developed a \textbf{schema-driven project registry} using YAML and Zod, with Cloudflare Worker routing for archived deployments while preserving paths and query parameters.
+        \item Maintained custom-domain, DNS, deployment, and routing infrastructure, \textbf{debugging production failures across Cloudflare, certificates, CAA records, and DNSSEC configuration}.
+    \end{itemize}
+\end{adjustwidth}
